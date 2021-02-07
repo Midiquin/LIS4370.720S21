@@ -1,13 +1,11 @@
-
 ---
-  title: "Week 3: Lab - Visualization "
+title: "Week 3: Lab - Visualization "
 author: 'Victoria Garcia'
 date: '01/30/2021'
 output: html_document
 ---
 
-
-
+```{r setup}
 # library
 library(ggplot2)
 
@@ -43,5 +41,5 @@ CBS
 #ABC pull numbers graphed
 ABC <- GraphIT(ABC_poll)
 ABC
-
+```
 

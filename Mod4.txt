@@ -1,0 +1,16 @@
+p1<- c(0.6,103,'bad','low','low')
+
+p2<- c(0.3, 87,'bad','low','high')
+
+p1
+
+
+
+p3 <- c(0.4,32,"bad","high","low”)
+p4 <- c(0.4,42,"bad","high","high")
+p5 <- c(0.2,59","good","low","low”)
+p6 <- c(0.6,109","good","low","high”)
+p7 <- c(0.3,78","good","high","low”)
+p8 <- c(0.4,205","good","high","high”)
+p9 <- c(0.9,135",”NA","high","high")
+p10 <- c(0.2,176",”bad","high","high”)
