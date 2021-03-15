@@ -20,15 +20,15 @@ ggplot(data, aes(x=X, y=Bodywt)) +
     axis.ticks.x = element_blank()
   ) +
   xlab("") +
-  ylab("Body weight in g")
+  ylab("Body weight in kg")
 
 
 ggplot(data, aes(x=Bodywt, y=X, fill=Brainwt))+
   geom_bar(stat = "identity")+
   ylab("Primate")+
-  xlab("Body Weight in g")+
+  xlab("Body Weight in kg")+
   labs(
-    fill="Brain weight in kg"
+    fill="Brain weight in g"
   )
 
 
