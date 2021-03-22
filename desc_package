@@ -1,0 +1,13 @@
+Package: midio
+Type: Package
+Title: Daylio Visualizer
+Version: 0.1
+Author: Victoria Rose
+Maintainer: Victoria Rose <midiquin@gmail.com>
+Description: This Package can be used to create visualizations from imported data
+              from the mood tracking app Daylio.
+Depends: R (>= 3.1.2)
+Imports: ggplot2
+License: CC0
+Encoding: UTF-8
+LazyData: true
