@@ -1,0 +1,39 @@
+---
+title: 'Create a Markdown file'
+author: 'Victoria Garcia        '
+date: '04/04/2021'
+output: html_document
+---
+
+---
+
+# Hello!
+
+---
+
+```{r setup, message = FALSE}
+# Add libraries.
+
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(tidyr)
+
+```
+
+# Step 1 - Load Data
+
+
+```{r, "Load some data"}
+# Write your code below.
+
+
+air <- data.frame(airquality)
+
+head(air)
+
+```
+
+---
+
+
