@@ -7,7 +7,7 @@ output: html_document
 
 ---
 
-# Hello!
+# Hello! This is a mardown file. 
 
 ---
 
@@ -15,9 +15,6 @@ output: html_document
 # Add libraries.
 
 library(ggplot2)
-library(reshape2)
-library(dplyr)
-library(tidyr)
 
 ```
 
@@ -26,7 +23,6 @@ library(tidyr)
 
 ```{r, "Load some data"}
 # Write your code below.
-
 
 air <- data.frame(airquality)
 
